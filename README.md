@@ -12,7 +12,7 @@ Refer to http://wiki.idempiere.org/en/Plugin:_Delete_Client_and_Initialize_Clien
 
 ## How to use
 
-System Admin -> General Rules -> Printing -> Print Format ???
+System Admin -> Data -> Utility -> JPIERE Delete
 
 ## Fixing
 
