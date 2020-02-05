@@ -1,4 +1,4 @@
-# KBS Plugin :JPIERE Delete Client and Initial Client
+# KBS Plugin : JPIERE Delete Client and Initial Client
 
 The fork from https://github.com/JPiere/jpiere.plugin.delete, and converted to be installed via **KBS ObjectData Tool** 
 
