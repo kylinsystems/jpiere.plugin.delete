@@ -16,6 +16,6 @@ System Admin -> General Rules -> Printing -> Print Format ???
 
 ## Fixing
 
-PackOut.xml : change wrong entitytype from <EntityType>U</EntityType> to <EntityType>JP</EntityType>
+PackOut.xml : change wrong entitytype from `<EntityType>U</EntityType>` to `<EntityType>JP</EntityType>`
 
 Run **UUID Generator** to generate value of ad_treenodemm.ad_treenodemm_uu for all 5 menus within this plugin, it is mandatory for plugin installation by **KBS ObjectData Tool**

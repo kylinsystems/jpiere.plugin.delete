@@ -1,13 +1,15 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: jpiere.plugin.delete
-Bundle-SymbolicName: jpiere.plugin.delete;singleton:=true
+Bundle-Name: KBS Plugins : JPiere Delete Client and Initialize Client
+Bundle-SymbolicName: com.kylinsystems.kbs.plugins.jpiere.delete;singleton:=true
 Bundle-Version: 7.1.0.qualifier
-Bundle-Vendor: OSS ERP Solutions
-Require-Bundle: org.adempiere.base;bundle-version="3.1.0",
- org.adempiere.plugin.utils;bundle-version="3.1.0"
-Bundle-ActivationPolicy: lazy
-Service-Component: OSGI-INF/JPiereDeleteProcessFactory.xml,
- OSGI-INF/JPiereDeleteModelFactory.xml
-Automatic-Module-Name: jpiere.plugin.delete
+Bundle-Activator: com.kylinsystems.kbs.odt.Activator
+Bundle-Vendor: KBS
 Bundle-RequiredExecutionEnvironment: JavaSE-11
+Require-Bundle: org.adempiere.base;bundle-version="0.0.0",
+ org.adempiere.plugin.utils;bundle-version="0.0.0",
+ com.kylinsystems.kbs.odt;bundle-version="0.0.0"
+Bundle-ClassPath: .
+Service-Component: OSGI-INF/*.xml
+Bundle-ActivationPolicy: lazy
+Automatic-Module-Name: com.kylinsystems.kbs.plugins.jpiere.delete
